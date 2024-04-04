@@ -40,10 +40,7 @@
 							"",
 							"pm.test(\"Response time is less than 500ms\", function () {",
 							"  pm.expect(pm.response.responseTime).to.be.below(500);",
-							"});",
-							"",
-							"",
-							""
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -52,7 +49,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "65168e38-1633-4406-99d2-db4931efb8bb",
+						"id": "1038c13d-4254-4148-b62d-3c561ae1eb68",
 						"exec": [],
 						"type": "text/javascript"
 					}
