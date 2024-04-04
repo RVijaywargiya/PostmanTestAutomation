@@ -11,6 +11,7 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "d2be8eae-8450-46af-844e-d64b6fc82f43",
 						"exec": [
 							"pm.test(\"Response status code is 200\", function () {",
 							"  pm.expect(pm.response.code).to.equal(200);",
@@ -39,8 +40,20 @@
 							"",
 							"pm.test(\"Response time is less than 500ms\", function () {",
 							"  pm.expect(pm.response.responseTime).to.be.below(500);",
-							"});"
+							"});",
+							"",
+							"",
+							""
 						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "65168e38-1633-4406-99d2-db4931efb8bb",
+						"exec": [],
 						"type": "text/javascript"
 					}
 				}
