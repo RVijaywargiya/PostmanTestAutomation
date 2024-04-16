@@ -285,9 +285,7 @@
 							"    pm.expect(jsonData).to.be.an('object');\r",
 							"    pm.expect(jsonData).to.have.property('cartId');\r",
 							"    pm.expect(jsonData.cartId).to.be.a('string');\r",
-							"})\r",
-							"\r",
-							"pm.globals.set(\"variable_key\", \"variable_value\");"
+							"})"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -296,8 +294,11 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"exec": [],
-						"type": "text/javascript"
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
